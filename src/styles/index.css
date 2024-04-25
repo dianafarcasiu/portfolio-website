@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap"); */
+
+@import url(./keyframes-queries.css);
+
+:root {
+  /* --main-color: #e8c9a1; */
+  --main-color: rgba(232, 201, 161, 0.6);
+  --secondary-color: #ab3d4f;
+  /* --secondary-color: #abc4aa; */
+  --bg-color: #f5f5f5;
+  /* --bg-color: #3a3a3a; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR + FOOTER */
+.logo {
+  font-size: 2rem;
+  /* font-family: "Allura", cursive; */
+  font-family: "Cookie", cursive;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.navbar {
+  padding: 1rem;
+  background-color: var(--main-color);
+  /* border-bottom: 1px solid var(--bg-color); */
+  border-bottom: 0.1px solid #000;
+}
+.navbar-pages {
+  margin: 0;
+  list-style-type: none;
+  gap: 2rem;
+  padding-left: 3rem;
+}
+.navbar-pages a:hover {
+  color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--main-color);
+  font-size: 0.9rem;
+  padding: 1.8rem;
+}
+.footer-logo {
+  font-family: "Cookie", cursive;
+  font-size: 1.4rem;
+}
+.footer-underline {
+  height: 0.2px;
+  background-color: #454545;
+  width: 80%;
+  margin: auto;
+}
+
+/* HOME */
+.home {
+  height: 70vh;
+  background-color: var(--main-color);
+  padding: 3rem 4rem;
+}
+.home-info h1 {
+  margin: 0 0 1.2rem;
+  font-weight: 500;
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+.wave {
+  font-size: 2.5rem;
+  animation: wave 2.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+.home-info h3 {
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15rem;
+  border-right: 0.15rem solid #454545;
+  animation: type 1.5s steps(45, end), border-blink 0.85s step-end infinite;
+}
+.home img {
+  width: 25rem;
+}
+
+.media-btns a,
+.gh-btns a {
+  color: #454545;
+  transition: color 0.2s ease;
+}
+.media-btns a:hover,
+.gh-btns a:hover {
+  color: var(--secondary-color);
+  /* color: #000; */
+}
+.fa-download {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+/* ABOUT */
+.title {
+  border-bottom: 0.5px solid #454545;
+  margin: 3rem 0;
+}
+.about {
+  padding: 1rem 2rem;
+}
+.about img {
+  width: 22rem;
+}
+.about p {
+  width: 45%;
+  text-align: justify;
+  line-height: 2rem;
+  margin: 0;
+}
+.tagline {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* SKILLS */
+.skills {
+  /* height: 45vh; */
+  height: auto;
+  padding: 4rem 2rem;
+  /* text-align: center; */
+}
+.skills i {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.skills i:hover {
+  animation: bounce 2s ease infinite;
+}
+.skills div {
+  width: 15rem;
+  height: 15rem;
+  color: #454545;
+  transition: all 0.4s ease;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+}
+.project-card {
+  width: 30%;
+  height: 26rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  margin-bottom: 0.6rem;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.4);
+}
