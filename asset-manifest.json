@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dianafarcasiu/portfolio-website/static/css/main.b82deae0.css",
+    "main.js": "/dianafarcasiu/portfolio-website/static/js/main.c5d52f00.js",
+    "static/media/movie-app.png": "/dianafarcasiu/portfolio-website/static/media/movie-app.ab4f985600f4d3102f25.png",
+    "static/media/cooking-app.png": "/dianafarcasiu/portfolio-website/static/media/cooking-app.09f16d8c5fb653310777.png",
+    "static/media/weather-app.png": "/dianafarcasiu/portfolio-website/static/media/weather-app.a621a5863e79b10ce184.png",
+    "static/media/CV_Diana_Farcasiu.pdf": "/dianafarcasiu/portfolio-website/static/media/CV_Diana_Farcasiu.66ce00d6f4049f16338c.pdf",
+    "static/media/about-icon.png": "/dianafarcasiu/portfolio-website/static/media/about-icon.3ae7b128a5eb937aa03d.png",
+    "static/media/home-icon.png": "/dianafarcasiu/portfolio-website/static/media/home-icon.537e59e9844182e16cf0.png",
+    "index.html": "/dianafarcasiu/portfolio-website/index.html",
+    "main.b82deae0.css.map": "/dianafarcasiu/portfolio-website/static/css/main.b82deae0.css.map",
+    "main.c5d52f00.js.map": "/dianafarcasiu/portfolio-website/static/js/main.c5d52f00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82deae0.css",
+    "static/js/main.c5d52f00.js"
+  ]
+}
